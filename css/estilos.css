@@ -1,0 +1,396 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#navegador ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#navegador li {
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+
+}
+
+#navegador li a {
+    padding: 10px 50px 10px 50px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-family: 'Urbanist', sans-serif;
+    text-decoration: none;
+    border-radius: 150px;
+    border: rgb(43, 36, 36) 8px outset;
+
+
+}
+
+#navegador li a:hover {
+    background-color: #333333;
+    color: #c7c7c7;
+
+}
+
+.fondo {
+    background-image: url(https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.contenido1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 50px;
+    background-color: rgba(38, 44, 34, 0.5);
+    color: rgb(27, 27, 27);
+
+
+}
+
+.contenido1 img {
+
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+
+}
+
+.titu {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+    font-family: 'Urbanist', sans-serif;
+    color: seashell;
+}
+
+.tituloImportante {
+
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+    padding: 50px;
+    color: rgb(68, 58, 58);
+    -webkit-text-fill-color: #d6d5cd;
+    -webkit-text-stroke: 2px rgb(83, 70, 70)
+}
+
+.logo1 {
+    position: relative;
+    display: block;
+    right: 500px;
+    bottom: 70px;
+
+
+}
+
+hr {
+    color: rgb(201, 206, 206);
+    margin: 25px;
+    border: 10px solid rgb(43, 36, 36);
+
+}
+
+.contenido p {
+    font-size: 50px;
+    background-color: rgba(38, 44, 34, 0.5);
+    color: rgb(253, 247, 243);
+    margin: 150px;
+    padding: 150px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+
+}
+
+.separacion {
+    margin: 100px;
+}
+
+
+.notaPie {
+    background-color: rgb(95, 94, 95);
+    position: block;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: rgb(230, 230, 230);
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+
+}
+
+footer a {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+    text-decoration: none;
+    color: rgb(145, 143, 142);
+
+}
+
+
+/* galeria */
+
+.tituloImportante2 {
+
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: rgb(68, 58, 58);
+    -webkit-text-fill-color: #d6d5cd;
+    -webkit-text-stroke: 2px rgb(83, 70, 70);
+    background-color: rgba(38, 44, 34, 0.5);
+    margin-top: 50px;
+}
+
+.logo2 {
+    position: relative;
+    display: block;
+    right: 500px;
+    bottom: 70px;
+}
+
+
+.fotosgaleria1 {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgba(38, 44, 34, 0.5)
+}
+
+.fotosgaleria1 img {
+    width: 400px;
+
+}
+
+.fotosgaleria2 {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgba(38, 44, 34, 0.5);
+
+}
+
+.fotosgaleria2 img {
+    width: 400px;
+    height: 300px;
+
+}
+
+.fotosgaleria3 {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgba(38, 44, 34, 0.5);
+
+}
+
+.fotosgaleria3 img {
+    width: 400px;
+    height: 300px;
+
+}
+
+.notaPie1 {
+    background-color: rgb(95, 94, 95);
+    position: block;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: rgb(230, 230, 230);
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+
+}
+
+footer a {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+    text-decoration: none;
+    color: rgb(145, 143, 142);
+
+}
+
+/* Noticias */
+
+.tituloImportante3 {
+
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: rgb(68, 58, 58);
+    -webkit-text-fill-color: #d6d5cd;
+    -webkit-text-stroke: 2px rgb(70, 55, 55);
+    background-color: rgba(38, 44, 34, 0.5);
+    margin-top: 50px;
+}
+
+.Noticias {
+    justify-content: center;
+    display: flex;
+    background-color: rgba(38, 44, 34, 0.5);
+    margin-bottom: 50px;
+
+}
+
+.texto1 {
+    background-color: rgba(56, 42, 42, 0.5);
+    padding: 50px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 30px;
+    color: snow;
+}
+
+.texto1 ol a {
+    text-decoration: none;
+    color: snow;
+
+}
+
+
+.texto1 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding: 50px;
+    color: seashell;
+}
+
+/* contacto */
+
+.notaPie3 {
+    background-color: rgb(95, 94, 95);
+    display: flex;
+    justify-content: center;
+    position: block;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: rgb(230, 230, 230);
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* Tienda*/
+
+.tienda1{
+    background-color: rgba(38, 44, 34, 0.5);
+    padding: 350px;
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin: 150px;
+    
+}
+
+.tienda1 h4{
+    color: seashell;
+    font-size: 50px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+    position: relative;
+    left: 150px;
+}
+
+.tienda1 img{
+    width: 400px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 150px;
+    
+}
+
+.tienda1 p{
+
+    color: seashell;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Shalimar', cursive;
+    font-family: 'Urbanist', sans-serif;
+    position: relative;
+    top: 400px;
+    left: -150px;
+
+}
+
